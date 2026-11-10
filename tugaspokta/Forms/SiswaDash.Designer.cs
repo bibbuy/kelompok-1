@@ -29,24 +29,37 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            flowLayoutPanel1 = new FlowLayoutPanel();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(313, 270);
+            label1.Location = new Point(391, 338);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(420, 41);
+            label1.Size = new Size(499, 48);
             label1.TabIndex = 0;
             label1.Text = "DASH SISWA PLACEHOLDER";
             // 
+            // flowLayoutPanel1
+            // 
+            flowLayoutPanel1.BackColor = SystemColors.ActiveBorder;
+            flowLayoutPanel1.ForeColor = SystemColors.ControlDarkDark;
+            flowLayoutPanel1.Location = new Point(557, 137);
+            flowLayoutPanel1.Name = "flowLayoutPanel1";
+            flowLayoutPanel1.Size = new Size(300, 150);
+            flowLayoutPanel1.TabIndex = 1;
+            // 
             // SiswaDash
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1084, 621);
+            ClientSize = new Size(1355, 776);
+            Controls.Add(flowLayoutPanel1);
             Controls.Add(label1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "SiswaDash";
             Text = "SiswaDash";
             ResumeLayout(false);
@@ -56,5 +69,6 @@
         #endregion
 
         private Label label1;
+        private FlowLayoutPanel flowLayoutPanel1;
     }
 }
