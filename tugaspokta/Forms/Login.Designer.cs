@@ -36,6 +36,8 @@
             label3 = new Label();
             label4 = new Label();
             button1 = new Button();
+            panel1 = new Panel();
+            label5 = new Label();
             SuspendLayout();
             // 
             // textBox1
@@ -51,7 +53,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 72F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label1.Location = new Point(326, 9);
+            label1.Location = new Point(296, 9);
             label1.Name = "label1";
             label1.Size = new Size(509, 159);
             label1.TabIndex = 1;
@@ -104,7 +106,7 @@
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.ActiveCaption;
+            button1.BackColor = SystemColors.Highlight;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(455, 382);
@@ -115,11 +117,33 @@
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
+            // panel1
+            // 
+            panel1.BackColor = SystemColors.HotTrack;
+            panel1.Location = new Point(1, 513);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1130, 45);
+            panel1.TabIndex = 8;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
+            label5.Location = new Point(409, 168);
+            label5.Name = "label5";
+            label5.Size = new Size(259, 28);
+            label5.TabIndex = 9;
+            label5.Text = "Sistem Informasi Akademik";
+            label5.TextAlign = ContentAlignment.MiddleCenter;
+            label5.Click += label5_Click;
+            // 
             // Login
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1130, 559);
+            Controls.Add(label5);
+            Controls.Add(panel1);
             Controls.Add(button1);
             Controls.Add(label4);
             Controls.Add(label3);
@@ -144,5 +168,7 @@
         private Label label3;
         private Label label4;
         private Button button1;
+        private Panel panel1;
+        private Label label5;
     }
 }
