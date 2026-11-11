@@ -43,7 +43,7 @@
             // textBox1
             // 
             textBox1.Location = new Point(569, 299);
-            textBox1.Margin = new Padding(4, 4, 4, 4);
+            textBox1.Margin = new Padding(4);
             textBox1.Name = "textBox1";
             textBox1.PlaceholderText = "Enter Username";
             textBox1.Size = new Size(265, 31);
@@ -65,7 +65,7 @@
             // textBox2
             // 
             textBox2.Location = new Point(569, 340);
-            textBox2.Margin = new Padding(4, 4, 4, 4);
+            textBox2.Margin = new Padding(4);
             textBox2.Name = "textBox2";
             textBox2.PlaceholderText = "Enter Email";
             textBox2.Size = new Size(265, 31);
@@ -74,7 +74,7 @@
             // textBox3
             // 
             textBox3.Location = new Point(569, 381);
-            textBox3.Margin = new Padding(4, 4, 4, 4);
+            textBox3.Margin = new Padding(4);
             textBox3.Name = "textBox3";
             textBox3.PlaceholderText = "Enter Password";
             textBox3.Size = new Size(265, 31);
@@ -113,11 +113,11 @@
             // 
             // button1
             // 
-            button1.BackColor = SystemColors.MenuHighlight;
+            button1.BackColor = Color.DeepSkyBlue;
             button1.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point, 0);
             button1.ForeColor = SystemColors.ButtonHighlight;
             button1.Location = new Point(569, 478);
-            button1.Margin = new Padding(4, 4, 4, 4);
+            button1.Margin = new Padding(4);
             button1.Name = "button1";
             button1.Size = new Size(191, 49);
             button1.TabIndex = 7;
@@ -127,9 +127,9 @@
             // 
             // panel1
             // 
-            panel1.BackColor = SystemColors.MenuHighlight;
+            panel1.BackColor = Color.DeepSkyBlue;
             panel1.Location = new Point(1, 641);
-            panel1.Margin = new Padding(4, 4, 4, 4);
+            panel1.Margin = new Padding(4);
             panel1.Name = "panel1";
             panel1.Size = new Size(1412, 56);
             panel1.TabIndex = 8;
@@ -162,7 +162,7 @@
             Controls.Add(textBox2);
             Controls.Add(label1);
             Controls.Add(textBox1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(4);
             Name = "Login";
             Text = "Form1";
             ResumeLayout(false);
